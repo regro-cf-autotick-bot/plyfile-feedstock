@@ -1,13 +1,13 @@
 {% set name = "plyfile" %}
-{% set version = "1.1" %}
+{% set version = "1.1.4" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a49bdf5285c95b6f7d4b9f2954b7867c44f8e13348606d886d8e0a561f6f4671
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 29daf18c0957a0957c5a77edff7b92acfeff90c9b64ea6c2ab2dd6f44ddc50d6
 
 build:
   noarch: python
